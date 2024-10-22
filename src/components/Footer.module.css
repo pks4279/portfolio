@@ -1,0 +1,24 @@
+/* src/components/Footer.module.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid #00d8ff;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #00d8ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #007acc;
+  }
+  

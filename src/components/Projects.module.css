@@ -1,0 +1,48 @@
+/* src/components/Projects.module.css */
+.projects {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .project {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project p {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project a {
+    text-decoration: none;
+    color: #00d8ff;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    color: #007acc;
+  }
+  
