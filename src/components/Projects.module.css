@@ -1,48 +1,47 @@
-/* src/components/Projects.module.css */
-.projects {
-    background-color: #fff;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .projects h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    color: #333;
-  }
-  
-  .projectList {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .project {
-    background-color: #f4f4f4;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-  }
-  
-  .project h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
-  
-  .project p {
-    color: #666;
-    margin-bottom: 0.5rem;
-  }
-  
-  .project a {
-    text-decoration: none;
-    color: #00d8ff;
-    font-weight: bold;
-  }
-  
-  .project a:hover {
-    color: #007acc;
-  }
-  
+.project {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  flex: 1; /* 이미지 영역이 더 많은 공간을 차지하도록 */
+  justify-content: center;
+}
+
+.projectImage {
+  width: 100%;
+  max-width: 400px; /* 각 이미지의 최대 너비를 증가시켜 더 크게 표시되도록 */
+  height: auto;
+  border-radius: 8px;
+}
+
+.projectContent {
+  flex: 1; /* 텍스트와 이미지가 동일한 비율로 공간을 차지하도록 */
+  text-align: left;
+  padding-left: 1rem; /* 텍스트와 이미지 사이의 여백 */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.project a {
+  text-decoration: none;
+  color: #00d8ff;
+  font-weight: bold;
+}

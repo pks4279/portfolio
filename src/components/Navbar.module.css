@@ -32,4 +32,6 @@
   .navLinks a:hover {
     color: #00d8ff;
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
