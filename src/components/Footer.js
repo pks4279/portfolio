@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        © 2024 My Portfolio. Built by <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>.
+        © 2024 Kyungsoo's Portfolio. Built by <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>.
       </p>
     </footer>
   );
