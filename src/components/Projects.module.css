@@ -24,22 +24,22 @@
 .images {
   display: flex;
   gap: 10px;
-  flex: 1; /* 이미지 영역이 더 많은 공간을 차지하도록 */
+  flex: 1;
   justify-content: center;
 }
 
 .projectImage {
   width: 100%;
-  max-width: 400px; /* 각 이미지의 최대 너비를 조정 */
+  max-width: 400px;
   height: auto;
   border-radius: 8px;
-  cursor: pointer; /* 클릭 가능한 이미지로 표시 */
+  cursor: pointer;
 }
 
 .projectContent {
-  flex: 1; /* 텍스트와 이미지가 동일한 비율로 공간을 차지하도록 */
+  flex: 1;
   text-align: left;
-  padding-left: 1rem; /* 텍스트와 이미지 사이의 여백 */
+  padding-left: 1rem;
 }
 
 .project h3 {
@@ -72,11 +72,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.75); /* 어두운 배경 */
+  background-color: rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* 다른 콘텐츠보다 위에 표시되도록 */
+  z-index: 1000;
 }
 
 .modalContent {
@@ -103,12 +103,13 @@
     align-items: center;
   }
 
+  .projectImage {
+    max-width: 90%;
+    width: auto;
+  }
+
   .projectContent {
     text-align: center;
     padding-left: 0;
-  }
-
-  .projectImage {
-    max-width: 100%;
   }
 }
